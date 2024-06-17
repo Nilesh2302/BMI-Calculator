@@ -38,12 +38,12 @@ $ open index.html
 bmi-calculator/
 │
 ├── css/
-│   └── styles.css      # Styling for the calculator
+│   └── styles.css     
 │
 ├── js/
-│   └── script.js       # JavaScript logic for BMI calculation
+│   └── script.js       
 │
-├── index.html          # Main HTML file
+├── index.html          
 │
-└── README.md           # This readme file
+└── README.md
 ```
