@@ -8,7 +8,9 @@
 }
 
 body {
-    background-color: #add8e6; /* Light blue background */
+    background-image: url('fitness-image.jpg'); 
+    background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +18,7 @@ body {
 }
 
 .container {
-    background: white;
+    background: rgba(255, 255, 255, 0.8); 
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
