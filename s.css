@@ -1,34 +1,91 @@
-.container {
-    max-width: 500px;
-    margin: 0 auto;
-    text-align: center;
-  }
-  .form-group {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 20px 0;
-  }
-  .form-group label {
-    flex: 1;
-    margin-right: 10px;
-    text-align: left;
-  }
-  .form-group input[type="number"] {
-    flex: 2;
-  }
-  .form-group select {
-    flex: 1;
-    margin-left: 10px;
-  }
-  .result {
-    margin-top: 50px;
-  }
-/*   
-  .hh{
-      background-image: url(i.png)
-  } */
+/* s.css */
 
-.hh{
-    background-color: grey;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+label {
+    display: block;
+    color: #666;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+input[type="number"] {
+    width: calc(100% - 80px);
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-right: 5px;
+}
+
+select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    background: #0072ff;
+    color: white;
+    padding: 0.7rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #005bb5;
+}
+
+.result {
+    margin-top: 2rem;
+}
+
+#bmi-value {
+    font-size: 2rem;
+    color: #0072ff;
+}
+
+#bmi-message {
+    font-size: 1.2rem;
+    color: #333;
 }
