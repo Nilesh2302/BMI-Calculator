@@ -33,17 +33,3 @@ $ open index.html
 - 🔄 Calculates BMI based on user input.
 - 💬 Displays the calculated BMI value and provides a message indicating the BMI category.
 
-## 📁 File Structure
-```
-bmi-calculator/
-│
-├── css/
-│   └── styles.css     
-│
-├── js/
-│   └── script.js       
-│
-├── index.html          
-│
-└── README.md
-```
